@@ -9,27 +9,24 @@
 
 <body>
   <div id="root"></div>
-  
- 
+
   <form>
     <h2>Mensaje Cifrado</h2>
 
     <div>
-    <input type="text" id="ingTextoHtml" placeholder="Ingresa un mensaje">
-    <input type="number" id="keyHtml">
-    <input type="button" value="CIFRAR" id="botonE" class="boton">
+      <input type="text" id="ingTextoHtml" placeholder="Ingresa un mensaje" required>
+      <input type="number" id="keyHtml" placeholder="Ingresa un número" required>
+      <input type="button" value="CIFRAR" id="botonE"  class="boton">
     </div>
 
-
-
-     <input type="text" id="salTextoHtml">
+    <input type="text" id="salTextoHtml" placeholder="Mensaje Cifrado">
     <input type="button" name="bntDecode" value="DECIFRAR" id="botonD" class="boton">
 
   </form>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-  
+
 </body>
 
 </html>
