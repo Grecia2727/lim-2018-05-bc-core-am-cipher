@@ -12,21 +12,20 @@
 
   <form>
     <h2>Mensaje Cifrado</h2>
-
+    <input type="text" id="ingTextoHtml" placeholder="Ingresa un mensaje en mayúsculas" required>
+    <input type="number" id="keyHtml" placeholder="Ingresa un número de posiciones" required>
     <div>
-      <input type="text" id="ingTextoHtml" placeholder="Ingresa un mensaje" required>
-      <input type="number" id="keyHtml" placeholder="Ingresa un número" required>
-      <input type="button" value="CIFRAR" id="botonE"  class="boton">
+      <input type="button" value="CIFRAR" id="botonE" class="boton"> 
     </div>
-
-    <input type="text" id="salTextoHtml" placeholder="Mensaje Cifrado">
-    <input type="button" name="bntDecode" value="DECIFRAR" id="botonD" class="boton">
-
+    <div>
+      <input type="button" value="DECIFRAR" id="botonD" class="boton">
+    </div>
+   <input type="text" id="salTextoHtml" placeholder="Resultado: Mensaje Cifrado o Decifrado">
+    <input type="button" value="LIMPIAR" id="limpiar" class="boton">
   </form>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-
 </body>
 
 </html>
