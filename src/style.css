@@ -2,13 +2,13 @@
 body
 {
 background-image:url(http://www.liocreativo.com/wp-content/uploads/2014/03/fondo-11.jpg);
-background-size: 100vw 100vh; /* añcho y altura del viewport CSS 3*/
+background-size: 100vw 100vh; /* ancho y altura del viewport CSS 3*/
 
 }
 
 form
 {
-width:400px;
+width:300px;
 margin: auto;  /* para centrar el formulario */    
 background: black; 
 padding: 10px 20px;  

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,11 +20,15 @@
     <div>
       <input type="button" value="DECIFRAR" id="botonD" class="boton">
     </div>
-   <input type="text" id="salTextoHtml" placeholder="Resultado: Mensaje Cifrado o Decifrado">
-    <input type="button" value="LIMPIAR" id="limpiar" class="boton">
   </form>
 
   <script src="cipher.js"></script>
+
+  <form>
+  <input type="text" id="salTextoHtml" placeholder="Resultado: Cifrado o Decifrado" readonly="readonly">
+  <input type="button" value="LIMPIAR" id="botonLimpiar">
+</form>
+
   <script src="index.js"></script>
 </body>
 

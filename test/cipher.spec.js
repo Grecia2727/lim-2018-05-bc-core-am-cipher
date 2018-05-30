@@ -13,7 +13,15 @@ describe('cipher', () => {
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33',()=> {
       assert.equal(cipher.encode(33,'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
+
+    it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offest 33',()=> {
+      assert.equal(cipher.encode(33,'abcdefghijklmnopqrstuvwxyz'),'hijklmnopqrstuvwxyzabcdefg');
+    });
      
+    it('debería retornar "0123456789 !#$%&"   para   "0123456789 !#$%&" con offest 33',()=> {
+      assert.equal(cipher.encode(33,'0123456789 !#$%&'),'0123456789 !#$%&');
+    });
+
   });
 
   describe('cipher.decode', () => {
@@ -23,17 +31,33 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () => {
-      
+      assert.equal(cipher.decode(33,'HIJKLMNOPQRSTUVWXYZABCDEFG'),'ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
-  });
-
-  describe('cipher.createCipherWithOffset', () => {
-
-    it('debería ser una función', () => {
-      assert.equal(typeof cipher.createCipherWithOffset, 'function');
+    
+    it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offest 33', () => {
+      assert.equal(cipher.decode(33,'hijklmnopqrstuvwxyzabcdefg'),'abcdefghijklmnopqrstuvwxyz');
     });
 
-    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
+    it('debería retornar "0123456789 !#$%&"   para  "0123456789 !#$%&" con offest 33',()=> {
+      assert.equal(cipher.encode(33,'0123456789 !#$%&'),'0123456789 !#$%&');
+    });
+
   });
+
+
+
+  // describe('cipher.createCipherWithOffset', () => {
+
+  //   it('debería ser una función', () => {
+  //     assert.equal(typeof cipher.createCipherWithOffset, 'function');
+  //   });
+
+  //   it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
+  // });
+
+
+
+
+
 
 });

@@ -1,24 +1,37 @@
 
-
 let btnEncode = document.getElementById("botonE");
+//  let btnLimpiar = document.getElementById("botonLimpiar");
 let btnDecode = document.getElementById("botonD");
 let ingTexto = document.getElementById("ingTextoHtml");
 let salTexto = document.getElementById("salTextoHtml");
 
-btnEncode.addEventListener("click", encriptar);
-// addEventListener es una funcion de JS que tiene 2 parametros. 
-// Uno de tipo String= clic, y encriptar
 
-	function encriptar(){
-	let  llave = document.getElementById("keyHtml").value;
-	salTexto.value=cipher.encode(llave, ingTexto.value);
+btnEncode.addEventListener("click", encriptar);
+function encriptar() {
+	let llave = document.getElementById("keyHtml").value;
+	salTexto.value = cipher.encode(llave, ingTexto.value);
 }
+
 
 btnDecode.addEventListener("click", desencriptar);
-    function desencriptar(){
-	let  llave = document.getElementById("keyHtml").value;
-	salTexto.value=cipher.decode(llave, ingTexto.value);
+function desencriptar() {
+	let llave = document.getElementById("keyHtml").value;
+	salTexto.value = cipher.decode(llave, ingTexto.value);
 }
+
+
+// btnLimpiar.addEventListener("click", desencriptar);
+// function limpiar() {
+// 	let ingTextoHtml= document.getElementById("ingTextoHtml").value;
+//    ingTextoHtml.innerHTML= "";
+	
+// 	let keyHtml=document.getElementById("keyHtml").value;
+// 	keyHtml.innerHTML= "";
+
+// 	let saltTextoHtml= document.getElementById("salTextoHtml").value;
+// 	salTextoHtml.innerHTML= "";
+// }
+
 
 
 
