@@ -1,4 +1,4 @@
-window.cipher = {    //"cipher" es el nombre del objeto, si deseo puedo cambiar de nombre al objeto.
+window.cipher = {    //"cipher" es el nombre del objeto, si deseo puedo CAMBIAR de nombre al objeto.
 encode: (offset, string) => {
    
       let nuevoTexto = '';

@@ -1,6 +1,6 @@
 
 let btnEncode = document.getElementById("botonE");
-//  let btnLimpiar = document.getElementById("botonLimpiar");
+let btnLimpiar = document.getElementById("botonLimpiar");
 let btnDecode = document.getElementById("botonD");
 let ingTexto = document.getElementById("ingTextoHtml");
 let salTexto = document.getElementById("salTextoHtml");
@@ -20,20 +20,12 @@ function desencriptar() {
 }
 
 
-// btnLimpiar.addEventListener("click", desencriptar);
-// function limpiar() {
-// 	let ingTextoHtml= document.getElementById("ingTextoHtml").value;
-//    ingTextoHtml.innerHTML= "";
-	
-// 	let keyHtml=document.getElementById("keyHtml").value;
-// 	keyHtml.innerHTML= "";
-
-// 	let saltTextoHtml= document.getElementById("salTextoHtml").value;
-// 	salTextoHtml.innerHTML= "";
-// }
-
-
-
+btnLimpiar.addEventListener("click", limpiar);  
+function limpiar() {
+	document.getElementById("ingTextoHtml").value = "";
+	document.getElementById("keyHtml").value = "";
+	document.getElementById("salTextoHtml").value = "";
+}
 
 // IMPORTANTE: 
 // document.getElementById("keyHtml")==> Captura la caja de texto

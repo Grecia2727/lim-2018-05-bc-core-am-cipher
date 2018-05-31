@@ -39,7 +39,7 @@ describe('cipher', () => {
     });
 
     it('debería retornar "0123456789 !#$%&"   para  "0123456789 !#$%&" con offest 33',()=> {
-      assert.equal(cipher.encode(33,'0123456789 !#$%&'),'0123456789 !#$%&');
+      assert.equal(cipher.decode(33,'0123456789 !#$%&'),'0123456789 !#$%&');
     });
 
   });
