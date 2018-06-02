@@ -34,7 +34,8 @@ generales.
 Para visualizar las actividades realizadas, hacer clic en:  [Tablero Trello](https://trello.com/b/VTqbLj2v/reto-cifrado-cesar)
      []()
 
-
+Ver Tablero del Sprint1
+Ver tablero del Sprint2
 
 
 
@@ -51,12 +52,12 @@ Para visualizar las actividades realizadas, hacer clic en:  [Tablero Trello](htt
 * `style.css:` Centro al formulario, le doy un fondo a la página y personalizo     algunas caracteristicas de la página entera.
 
 * `cipher.spec.js:` Aquí programo los Test Unitarios. 
+
     * 1er test: cipher Debería ser un objeto.
     * 2do test: cipher.encode debería ser una funcion.
     * 3er test: prueba la funcionalidad de `cipher.encode`  con letras MAYUSCULAS.
     * 4to test: prueba la funcionalidad de `cipher.encode`  con letras MINUSCULAS.
     * 5to test: prueba la funcionalidad de `cipher.encode`  con SIGNOS Y NÚMEROS.
-
 
     * 6to test: `cipher.decode` debería ser una funcion.
     * 7mo test: prueba la funcionalidad de `cipher.decode` con letras MAYUSCULAS.
@@ -78,7 +79,6 @@ Para visualizar las actividades realizadas, hacer clic en:  [Tablero Trello](htt
 ### Hacker edition:
 
 ![Segundo Test Ok](/src/images/test2.png "2do Test Unitario Ok")
-
 
 
 
