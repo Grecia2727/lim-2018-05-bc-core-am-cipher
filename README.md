@@ -90,12 +90,12 @@ Cómo utilizarlo:
 * `style.css:` Centro al formulario, le doy un fondo a la página y personalizo     algunas caracteristicas de la página entera.
 
 * `cipher.spec.js:` Aquí programo los Test Unitarios. 
+
     * 1er test: cipher Debería ser un objeto.
     * 2do test: cipher.encode debería ser una funcion.
     * 3er test: prueba la funcionalidad de `cipher.encode`  con letras MAYUSCULAS.
     * 4to test: prueba la funcionalidad de `cipher.encode`  con letras MINUSCULAS.
     * 5to test: prueba la funcionalidad de `cipher.encode`  con SIGNOS Y NÚMEROS.
-
 
     * 6to test: `cipher.decode` debería ser una funcion.
     * 7mo test: prueba la funcionalidad de `cipher.decode` con letras MAYUSCULAS.
@@ -118,7 +118,6 @@ Cómo utilizarlo:
 Se realizó la actividad del Hacker Edition, logrando pasar los test con 100%.
 
 ![Segundo Test Ok](http://subirimagen.me/uploads/20180604084127.PNG "2do Test Unitario Ok")
-
 
 
 ### Tips utilizados:
