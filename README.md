@@ -2,13 +2,17 @@
 
 ### Diseño del Formulario:
 
-![Formulario](/src/images/formulario.png "Formulario Cifrado Cesar")
+
+![Formulario](http://subirimagen.me/uploads/20180604084324.PNG "Formulario")
+
+
 
 Para ingresar al formulario desarrollado, entrar al siguiente enlace: [abrir formulario](https://grecia2727.github.io/lim-2018-05-bc-core-am-cipher/src/).
 
+
 ## **Funcionalidades del Formulario desarrollado**
 
-El formulario que se presenta sirve básicamente para CIFRAR un mensaje utilizando 
+El formulario que se presenta sirve básicamente para CIFRAR y DESCIFRAR un mensaje utilizando 
 el código de la clave que prefieras 😎.
 La fórmula utilizada se basa en el "Cifrado Cesar" una forma antigua de convertir 
 un MENSAJE en otro, con el fin de que el MENSAJE inicial, sea difícil de entender 
@@ -23,21 +27,55 @@ Por ejemplo, con un desplazamiento de 33, la A sería sustituida por la H (situa
 Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus 
 generales.
 
+
 ## **Especificaciones del Proceso realizado:**
 
 
 ### Análisis e interpretación del problema
     
-    La planificacion del proyecto se realizó con el Squad CodeBreakers.
-    A continuación muestro el tablero con las Actividades que se planificaron. Se logró Realizar las actividades planificadas, con el compromiso de terminar de ejecutar el resto de actividades la siguiente semana.
+La planificacion del proyecto se realizó con el Squad CodeBreakers.
+   Se logró Realizar las actividades planificadas, con el compromiso de terminar de ejecutar todas las actividades dentro de los 2 sprints.
+ 
 
-Las actividades realizadas, se muestran en las siguientes imágenes:  
 
 Sprint 1:
-![Sprint 1: Tablero en Trello](/src/images/trello1.JPG "1er Tablero en Trello")
+![Sprint 1: Tablero en Trello](http://subirimagen.me/uploads/20180604084203.JPG "1er Tablero en Trello")
 
 Sprint 2:
-![Sprint 2: Tablero en Trello](/src/images/trello2.JPG "2do Tablero en Trello")
+![Sprint 2: Tablero en Trello](http://subirimagen.me/uploads/20180604084241.JPG "2do Tablero en Trello")
+
+
+### Experiencia de Usario: UX
+
+El diseño del formulario fue realizado basandome en pequeñas entrevistas realizadas a algunos usuarios. En las entrevistas los usuarios indicaron que deseaban un producto:
+
+* Sencillo, fácil de utilizar
+* Con un diseño agradable
+* Que el formulario sea pequeño y no demasiado grande.
+* Con funcionalidad intuitiva, donde no requieran de un manual, para poder utilizarlo.
+* Ordenado.
+
+Siguiendo las sugerencias de los usuarios entrevistados se diseñó diferentes modelos de diseños:
+
+1er Diseño: fue descartado, porque tenía muchos labels, lo cual hacía que el diseño se vea muy cargado.
+
+2do Diseño: Se realizó un segundo diseño con un sólo BOTON que Cifraba y Descifraba al mismo tiempo. Los usuarios informaron que un mensaje que se va a a cifrar, no necesariamente se tenía que descifrar al mismo tiempo. Por este motivo también se descartó este diseño.
+
+3er Diseño: fue simple, pequeño, se utilizó 2 BOTONES, uno para cifrar, y el otro para descifrar. A los usuarios les encantó el diseño, por este motivo el Proyecto final se muestra con este ultimo diseño aprobado. 
+
+
+### Flujo Grama:
+
+![Flujograma ](http://subirimagen.me/uploads/20180604084357.jpg "Flujograma")
+
+### Funcionalidad del Formulario:
+
+Objetivo: Cifrar y descifrar un mensaje.
+
+Cómo utilizarlo: 
+1) Escribe un texto en la primera casilla.
+2) Ingresa un Número positivo o clave de posiciones.
+3) Hacer clic en el boton "Cifrar" para encriptar el mensaje; o hacer clic en "Descifrar" para desencriptar el mensaje.
 
 
 ### Producción
@@ -72,17 +110,14 @@ Sprint 2:
 
 
 ### Test Realizados:
-
-![Primer Test Ok](/src/images/test1.png "1er Test Unitario Ok")
+![Primer Test Ok](http://subirimagen.me/uploads/20180604084029.PNG "1er Test Unitario Ok")
 
 
 ### Hacker edition:
 
 Se realizó la actividad del Hacker Edition, logrando pasar los test con 100%.
 
-![Segundo Test Ok](/src/images/test2.png "2do Test Unitario Ok")
-
-
+![Segundo Test Ok](http://subirimagen.me/uploads/20180604084127.PNG "2do Test Unitario Ok")
 
 
 
