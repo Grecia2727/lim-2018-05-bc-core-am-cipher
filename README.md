@@ -31,16 +31,17 @@ generales.
     La planificacion del proyecto se realizó con el Squad CodeBreakers.
     A continuación muestro el tablero con las Actividades que se planificaron. Se logró Realizar las actividades planificadas, con el compromiso de terminar de ejecutar el resto de actividades la siguiente semana.
 
-Para visualizar las actividades realizadas, hacer clic en:  [Tablero Trello](https://trello.com/b/VTqbLj2v/reto-cifrado-cesar)
-     []()
+Las actividades realizadas, se muestran en las siguientes imágenes:  
 
+Sprint 1:
+![Sprint 1: Tablero en Trello](/src/images/trello1.JPG "1er Tablero en Trello")
 
-
-
+Sprint 2:
+![Sprint 2: Tablero en Trello](/src/images/trello2.JPG "2do Tablero en Trello")
 
 
 ### Producción
-    El código del formulario se basa en 3 archivos:
+    El código del formulario se basa principalmente en 5 archivos, los cuales se ha codificado:
 
 * `index.html:` Aquí se encuentra la estructura de la página y el formulario en sí.
 
@@ -76,6 +77,8 @@ Para visualizar las actividades realizadas, hacer clic en:  [Tablero Trello](htt
 
 
 ### Hacker edition:
+
+Se realizó la actividad del Hacker Edition, logrando pasar los test con 100%.
 
 ![Segundo Test Ok](/src/images/test2.png "2do Test Unitario Ok")
 
